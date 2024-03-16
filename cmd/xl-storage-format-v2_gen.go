@@ -384,6 +384,7 @@ func (z *xlMetaV2DeleteMarker) EncodeMsg(en *msgp.Writer) (err error) {
 	// omitempty: check for empty values
 	zb0001Len := uint32(3)
 	var zb0001Mask uint8 /* 3 bits */
+	_ = zb0001Mask
 	if z.MetaSys == nil {
 		zb0001Len--
 		zb0001Mask |= 0x4
@@ -449,6 +450,7 @@ func (z *xlMetaV2DeleteMarker) MarshalMsg(b []byte) (o []byte, err error) {
 	// omitempty: check for empty values
 	zb0001Len := uint32(3)
 	var zb0001Mask uint8 /* 3 bits */
+	_ = zb0001Mask
 	if z.MetaSys == nil {
 		zb0001Len--
 		zb0001Mask |= 0x4
@@ -817,6 +819,7 @@ func (z *xlMetaV2Object) EncodeMsg(en *msgp.Writer) (err error) {
 	// omitempty: check for empty values
 	zb0001Len := uint32(17)
 	var zb0001Mask uint32 /* 17 bits */
+	_ = zb0001Mask
 	if z.PartActualSizes == nil {
 		zb0001Len--
 		zb0001Mask |= 0x1000
@@ -1081,6 +1084,7 @@ func (z *xlMetaV2Object) MarshalMsg(b []byte) (o []byte, err error) {
 	// omitempty: check for empty values
 	zb0001Len := uint32(17)
 	var zb0001Mask uint32 /* 17 bits */
+	_ = zb0001Mask
 	if z.PartActualSizes == nil {
 		zb0001Len--
 		zb0001Mask |= 0x1000
@@ -1555,6 +1559,7 @@ func (z *xlMetaV2Version) EncodeMsg(en *msgp.Writer) (err error) {
 	// omitempty: check for empty values
 	zb0001Len := uint32(4)
 	var zb0001Mask uint8 /* 4 bits */
+	_ = zb0001Mask
 	if z.ObjectV1 == nil {
 		zb0001Len--
 		zb0001Mask |= 0x2
@@ -1651,6 +1656,7 @@ func (z *xlMetaV2Version) MarshalMsg(b []byte) (o []byte, err error) {
 	// omitempty: check for empty values
 	zb0001Len := uint32(4)
 	var zb0001Mask uint8 /* 4 bits */
+	_ = zb0001Mask
 	if z.ObjectV1 == nil {
 		zb0001Len--
 		zb0001Mask |= 0x2

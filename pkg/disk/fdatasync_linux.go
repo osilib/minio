@@ -1,4 +1,4 @@
-// +build linux
+//go:build linux
 
 /*
  * Minio Cloud Storage, (C) 2020 Minio, Inc.

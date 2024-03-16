@@ -1,4 +1,4 @@
-// +build openbsd
+//go:build openbsd
 
 /*
  * MinIO Cloud Storage, (C) 2017 MinIO, Inc.

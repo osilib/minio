@@ -1,4 +1,4 @@
-// +build linux,s390x
+//go:build linux && s390x
 
 /*
  * MinIO Cloud Storage, (C) 2020 MinIO, Inc.

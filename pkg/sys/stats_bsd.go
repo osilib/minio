@@ -1,4 +1,4 @@
-// +build openbsd freebsd dragonfly
+//go:build openbsd || freebsd || dragonfly
 
 /*
  * MinIO Cloud Storage, (C) 2016,2017 MinIO, Inc.

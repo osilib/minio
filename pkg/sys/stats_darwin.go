@@ -1,4 +1,4 @@
-// +build darwin
+//go:build darwin
 
 /*
  * MinIO Cloud Storage, (C) 2016-2021 MinIO, Inc.

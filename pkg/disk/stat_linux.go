@@ -1,4 +1,4 @@
-// +build linux,!s390x,!arm,!386
+//go:build linux && !s390x && !arm && !386
 
 /*
  * MinIO Cloud Storage, (C) 2015, 2016, 2017 MinIO, Inc.

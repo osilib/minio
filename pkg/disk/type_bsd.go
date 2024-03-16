@@ -1,4 +1,4 @@
-// +build darwin freebsd dragonfly openbsd solaris
+//go:build darwin || freebsd || dragonfly || openbsd || solaris
 
 /*
  * MinIO Cloud Storage, (C) 2017 MinIO, Inc.

@@ -1,4 +1,4 @@
-// +build solaris
+//go:build solaris
 
 /*
  * MinIO Cloud Storage, (C) 2017 MinIO, Inc.

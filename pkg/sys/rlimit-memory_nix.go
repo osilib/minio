@@ -1,4 +1,4 @@
-// +build linux darwin netbsd solaris
+//go:build linux || darwin || netbsd || solaris
 
 /*
  * MinIO Cloud Storage, (C) 2017 MinIO, Inc.

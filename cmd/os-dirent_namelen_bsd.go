@@ -1,4 +1,4 @@
-// +build darwin freebsd openbsd netbsd
+//go:build darwin || freebsd || openbsd || netbsd
 
 /*
  * MinIO Cloud Storage, (C) 2019 MinIO, Inc.

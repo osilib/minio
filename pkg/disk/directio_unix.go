@@ -1,4 +1,4 @@
-// +build linux netbsd freebsd
+//go:build linux || netbsd || freebsd
 
 /*
  * Minio Cloud Storage, (C) 2019-2020 Minio, Inc.

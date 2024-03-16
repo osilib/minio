@@ -1,4 +1,4 @@
-// +build !windows
+//go:build !windows
 
 /*
  * MinIO Cloud Storage, (C) 2021 MinIO, Inc.

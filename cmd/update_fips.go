@@ -1,4 +1,4 @@
-// +build fips
+//go:build fips
 
 /*
  * MinIO Cloud Storage, (C) 2021 MinIO, Inc.

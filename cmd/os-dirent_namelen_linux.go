@@ -1,4 +1,4 @@
-// +build linux,!appengine
+//go:build linux && !appengine
 
 /*
  * MinIO Cloud Storage, (C) 2019 MinIO, Inc.

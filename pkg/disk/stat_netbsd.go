@@ -1,4 +1,4 @@
-// +build netbsd
+//go:build netbsd
 
 /*
  * MinIO Cloud Storage, (C) 2020 MinIO, Inc.

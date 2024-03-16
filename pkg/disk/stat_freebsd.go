@@ -1,4 +1,4 @@
-// +build freebsd
+//go:build freebsd
 
 /*
  * MinIO Cloud Storage, (C) 2021 MinIO, Inc.

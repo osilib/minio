@@ -1,5 +1,4 @@
-// +build linux darwin
-// +build !appengine
+//go:build (linux || darwin) && !appengine
 
 /*
  * MinIO Cloud Storage, (C) 2019 MinIO, Inc.

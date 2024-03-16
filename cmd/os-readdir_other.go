@@ -1,4 +1,4 @@
-// +build plan9 solaris
+//go:build plan9 || solaris
 
 /*
  * MinIO Cloud Storage, (C) 2016-2020 MinIO, Inc.

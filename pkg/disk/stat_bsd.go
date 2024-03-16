@@ -1,4 +1,4 @@
-// +build darwin dragonfly
+//go:build darwin || dragonfly
 
 /*
  * MinIO Cloud Storage, (C) 2015-2021 MinIO, Inc.

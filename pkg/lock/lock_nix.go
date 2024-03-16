@@ -1,4 +1,4 @@
-// +build !windows,!plan9,!solaris
+//go:build !windows && !plan9 && !solaris
 
 /*
  * MinIO Cloud Storage, (C) 2016 MinIO, Inc.

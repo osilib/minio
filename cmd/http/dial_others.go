@@ -1,4 +1,4 @@
-// +build !linux
+//go:build !linux
 
 /*
  * MinIO Cloud Storage, (C) 2020 MinIO, Inc.
@@ -26,6 +26,7 @@ import (
 )
 
 // TODO: if possible implement for non-linux platforms, not a priority at the moment
+//
 //nolint:deadcode
 func setInternalTCPParameters(c syscall.RawConn) error {
 	return nil

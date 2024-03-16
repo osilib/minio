@@ -1,4 +1,4 @@
-// +build linux,!arm,!386
+//go:build linux && !arm && !386
 
 /*
  * MinIO Cloud Storage, (C) 2016,2017 MinIO, Inc.

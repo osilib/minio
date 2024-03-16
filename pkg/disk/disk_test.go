@@ -1,4 +1,4 @@
-// +build !netbsd,!solaris
+//go:build !netbsd && !solaris
 
 /*
  * MinIO Cloud Storage, (C) 2015, 2016, 2017 MinIO, Inc.

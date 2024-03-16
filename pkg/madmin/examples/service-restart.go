@@ -1,4 +1,4 @@
-// +build ignore
+//go:build ignore
 
 /*
  * MinIO Cloud Storage, (C) 2016 MinIO, Inc.

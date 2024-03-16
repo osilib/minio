@@ -1,4 +1,4 @@
-// +build !linux
+//go:build !linux
 
 /*
  * MinIO Cloud Storage, (C) 2016 MinIO, Inc.

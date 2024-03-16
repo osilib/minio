@@ -1,4 +1,4 @@
-// +build linux darwin dragonfly freebsd netbsd openbsd rumprun
+//go:build linux || darwin || dragonfly || freebsd || netbsd || openbsd || rumprun
 
 /*
  * MinIO Cloud Storage, (C) 2018 MinIO, Inc.
